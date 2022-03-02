@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T23:10:05.008Z
+date: 2022-03-02T23:10:22.561Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
@@ -36,4 +36,4 @@ Let's look at the big picture — where can names come from? So far, I've found 
 - Contact 
 - Domain Shared Contact 
 - Other Contact
-- User profile
+- User profile (when allowing users to change profile data)
