@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T17:23:41.518Z
+date: 2022-03-02T23:06:31.808Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
@@ -21,4 +21,8 @@ If I'm ian@conjecturaltechnologies.xyz, and I email suzy@conjecturaltechnologies
 Users can turn this off in Gmail under Settings > General, and admins can use GAM to turn this off in bulk. At time of writing, there is no option in the admin constrol to control this.
 
 ### Google Account Personal Info
-In one case, I had a user with the correct information in Google Admin and I didn't have them in Other Contacts, but their name was still wrong. The user had to go into their Profile Info > Personal Info and edit their own name. I haven't tested how this works if you don't allow users to edit their own information (but I don't see this setting any more?).
+In one case, I had a user with the correct information in Google Admin and I didn't have them in Other Contacts, but their name was still wrong. The user had to go into their Profile Info > Personal Info and edit their own name. This happened becuase we allow users to set their own name — it won't sync. 
+
+If you disallow users from changing their name (or other profile data) it will reset to the information synced by the admin console. 
+
+You can always view both of the profile data fields API (`gam user user@domain show peopleprofile`).
