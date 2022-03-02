@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T23:11:42.914Z
+date: 2022-03-02T23:12:24.531Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
@@ -29,7 +29,7 @@ If you disallow users from changing their name (or other profile data) it will r
 
 You can always view both of the profile data fields API (`gam user user@domain show peopleprofile`)
 
-### Taxonomy
+### Wrap-up
 Let's look at the big picture — where can names come from? So far, I've found five places:
 
 - Admin console 
@@ -37,3 +37,5 @@ Let's look at the big picture — where can names come from? So far, I've found 
 - Domain Shared Contacts
 - Other Contact
 - User profile (when allowing users to change profile data)
+
+Gmail, and other apps, seem to prioritize Contacts data over other sources, but I can't confirm the exact order of priority.
