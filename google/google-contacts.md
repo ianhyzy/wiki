@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T17:18:46.680Z
+date: 2022-03-02T17:23:41.518Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
