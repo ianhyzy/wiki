@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T23:07:15.472Z
+date: 2022-03-02T23:07:28.871Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
@@ -16,7 +16,9 @@ Names and profile info a lot trickier than it first appears in Google. First, th
 ### Gmail & other contacts
 **By default, Gmail stores copies of contacts that you email in Gmail, in [Other Contacts](https://contacts.google.com/other).**
 
-If I'm ian@conjecturaltechnologies.xyz, and I email suzy@conjecturaltechnologies.xyz, I should see Suzy in Other Contacts as well as the Directory. Having two copies of a contact is a recipie for disaster. If somone's name changes (like when they get married), and you update it in the Admin Console, users may not see the change. Sometimes the Other Contact seems to update with the new info but sometimes...it doesn't, and end users need to delete it or edit it. If you find that you have an Other Contacts issue with many users, the [People API](https://developers.google.com/people/) supports Other Contacts, and you can use [GAM-ADVXTD3](https://github.com/taers232c/GAMADV-XTD3/wiki) to fix it.
+If I'm ian@conjecturaltechnologies.xyz, and I email suzy@conjecturaltechnologies.xyz, I should see Suzy in Other Contacts as well as the Directory. Having two copies of a contact is a recipie for disaster. If somone's name changes (like when they get married), and you update it in the Admin Console, users may not see the change. Sometimes the Other Contact seems to update with the new info but sometimes...it doesn't, and end users need to delete it or edit it. 
+
+If you find that you have an Other Contacts issue with many users, the [People API](https://developers.google.com/people/) supports Other Contacts, and you can use [GAM-ADVXTD3](https://github.com/taers232c/GAMADV-XTD3/wiki) to fix it.
 
 Users can turn this off in Gmail under Settings > General, and admins can use GAM to turn this off in bulk. At time of writing, there is no option in the admin constrol to control this.
 
