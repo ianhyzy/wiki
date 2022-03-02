@@ -2,7 +2,7 @@
 title: Google Contacts
 description: All my odds and ends about Google Contacts
 published: true
-date: 2022-03-02T23:07:28.871Z
+date: 2022-03-02T23:10:05.008Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T17:14:16.048Z
@@ -27,4 +27,13 @@ In one case, I had a user with the correct information in Google Admin and I did
 
 If you disallow users from changing their name (or other profile data) it will reset to the information synced by the admin console. 
 
-You can always view both of the profile data fields API (`gam user user@domain show peopleprofile`).
+You can always view both of the profile data fields API (`gam user user@domain show peopleprofile`)
+
+### Taxonomy
+Let's look at the big picture — where can names come from? So far, I've found five places:
+
+- Admin console 
+- Contact 
+- Domain Shared Contact 
+- Other Contact
+- User profile
